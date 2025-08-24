@@ -10,6 +10,6 @@ router.use("/api/user", userRoutes)
 // post routes
 router.use("/api/post", postRoutes)
 //comment routes
-router.use("/api/comment", commentRoutes)
+router.use("/api/comment", commentRoutes);
 
 export default router;
